@@ -1,0 +1,35 @@
+
+#main-container {
+    background: linear-gradient(rgb(237, 221, 8), purple);
+}
+#profile-card {
+    background: linear-gradient(rgb(255, 249, 162), rgb(232, 73, 232));
+
+}
+body {
+    background-color: hsl(185, 75%, 39%);
+    background: url(bg-pattern-card.svg);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.box {
+    height: 300px;    
+    width: 250px;
+    background: rgb(255, 157, 157);
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+
+/* mobile */
+@media screen and (max-width: 375px) {
+    #main-container {
+        background: aqua;
+    }
+}
